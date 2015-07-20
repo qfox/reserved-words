@@ -61,4 +61,4 @@ Reserved Words are formally defined in sections
 
 ### License
 
-Licensed under [The MIT License](https://github.com/zxqfox/reserved-words/blob/LICENSE)
+Licensed under [The MIT License](https://github.com/zxqfox/reserved-words/blob/master/LICENSE)
