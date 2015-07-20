@@ -1,6 +1,6 @@
 {
   "name": "reserved-words",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ECMAScript reserved words checker",
   "main": "lib/index.js",
   "scripts": {
