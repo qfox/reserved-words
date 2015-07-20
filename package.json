@@ -4,7 +4,7 @@
   "description": "ECMAScript reserved words checker",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "jshint && jscs lib test && mocha"
   },
   "repository": {
     "type": "git",
