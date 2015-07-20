@@ -26,6 +26,16 @@ in some ECMAScript dialect (ECMA-262 edition).
 If the `strict` flag is truthy, this function additionally checks whether
 `word` is a Keyword or Future Reserved Word under strict mode.
 
+#### Example
+
+```
+var reserved = require('reserved-words');
+reserved.check('volatile', 'es3'); // true
+reserved.check('volatile', 'es2015'); // false
+reserved.check('yield', 3); // false
+reserved.check('yield', 6); // true
+```
+
 ### dialects
 
 #### es3 (or 3)
