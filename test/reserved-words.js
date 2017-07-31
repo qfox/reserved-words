@@ -27,6 +27,10 @@ describe('reserved-words', function() {
         it('should return false for ES6 word', function() {
             assert(!reserved.check('await', dialect, strict));
         });
+
+        it('should return false for prototype word', function() {
+            assert(!reserved.check('toString', dialect, strict));
+        });
     });
 
     describe('es5 dialect', function() {
